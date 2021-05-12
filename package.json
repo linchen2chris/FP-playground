@@ -1,0 +1,26 @@
+{
+  "name": "fp-playground",
+  "version": "1.0.0",
+  "description": "learn FP",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linchen2chris/FP-playground.git"
+  },
+  "keywords": [
+    "fp-ts"
+  ],
+  "author": "chen lin",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/linchen2chris/FP-playground/issues"
+  },
+  "homepage": "https://github.com/linchen2chris/FP-playground#readme",
+  "dependencies": {
+    "fp-ts": "^2.10.5",
+    "typescript": "^4.2.4"
+  }
+}
