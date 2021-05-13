@@ -1,31 +1,38 @@
 {
-  "name": "fp-playground",
+  "name": "@mostly-adequate/exercises",
   "version": "1.0.0",
-  "description": "learn FP",
-  "main": "index.ts",
-  "scripts": {
-    "test": "jest"
-  },
+  "description": "Exercises coming with the Mostly Adequate Guide to Functional Programming",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/linchen2chris/FP-playground.git"
+    "url": "https://github.com/MostlyAdequate/mostly-adequate-guide"
   },
-  "keywords": [
-    "fp-ts"
-  ],
-  "author": "chen lin",
-  "license": "GPL-3.0",
+  "author": "@mostly-adequate",
   "bugs": {
-    "url": "https://github.com/linchen2chris/FP-playground/issues"
+    "url": "https://github.com/MostlyAdequate/mostly-adequate-guide/issues"
   },
-  "homepage": "https://github.com/linchen2chris/FP-playground#readme",
-  "dependencies": {
-    "@mostly-adequate/support": "^2.0.1",
-    "fp-ts": "^2.10.5",
-    "typescript": "^4.2.4"
-  },
+  "homepage": "https://github.com/MostlyAdequate/mostly-adequate-guide",
+  "dependencies": {},
   "devDependencies": {
-    "@types/jest": "^26.0.23",
-    "jest": "^26.6.3"
+    "cli": "^1.0.1",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.5.1",
+    "live-server": "^1.2.1",
+    "mocha": "^4.1.0"
+  },
+  "scripts": {
+    "test": "mocha test/*.solutions.js",
+    "lint": "eslint .",
+    "ch04": "mocha test/ch04.js",
+    "ch05": "mocha test/ch05.js",
+    "ch06": "live-server --ignore='node_modules/*/**' ch06",
+    "ch08": "mocha test/ch08.js",
+    "ch09": "mocha test/ch09.js",
+    "ch10": "mocha test/ch10.js",
+    "ch11": "mocha test/ch11.js",
+    "ch12": "mocha test/ch12.js"
   }
 }
